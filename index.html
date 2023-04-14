@@ -8,72 +8,110 @@
     <title>Odin Dashboard</title>
 </head>
 <body>
-    
-    <header>
+    <div class="main-container">
+        <header>
 
-        <div class="search-container">
+            <div class="search-container">
 
-            <form action="#">
-                <input class="search-bar" type="text" placeholder="Search ..." name="search">
-                <button class="search-button"><img src="img/search-icon.png" ></button>
-            </form>
+                <form action="#">
+                    <input class="search-bar" type="text" placeholder="Search ..." name="search">
+                    <button class="search-button"><img src="img/search-icon.png" ></button>
+                </form>
 
-        </div>
+            </div>
 
-        <div class="login">Login</div>
+            <div class="login">
 
-        <div class="greeting">
+                <img src="img/notifications.png">
+                <img src="img/profile-pic.png">
+                <p>Natasha Romanoff</p>
 
-            <img src="img/profile-pic.png">
-            <p>Hi there,</p>
-            <h2>Natasha Romanoff (@BlackWidow)</h2>
+            </div>
 
-        </div>
+            <div class="greeting">
 
-        <div class="options">Options</div>
+                <img src="img/profile-pic.png">
+                <p>Hi there,</p>
+                <h2>Natasha Romanoff (@BlackWidow)</h2>
 
-    </header>
-    <aside>
+            </div>
 
-        <div class="grid-menu">
-            <img class="first-column logo" src="img/lux-logo.png">
-            <h1 class="title">Dashboard</h1>
-        </div>
+            <div class="options">
 
-        <div class="grid-menu">
-            <ul>
-                <li class="first-column">1</li>
-                <li class="first-column">2</li>
-                <li class="first-column">3</li>
-                <li class="first-column">4</li>
-                <li class="first-column">5</li>
-                <li class="first-column">6</li>
-            </ul>
-            <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
-            </ul>
-        </div>
+                <ul>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Upload</a></li>
+                    <li><a href="#">Share</a></li>
+                </ul>
 
-        <div class="grid-menu">
-            <ul>
-                <li class="first-column">1</li>
-                <li class="first-column">2</li>
-                <li class="first-column">3</li>
-            </ul>
-            <ul>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
-            </ul>
-        </div>
+            </div>
 
-    </aside>
-    <main>Content</main>
+        </header>
+        <aside>
+
+            <div class="grid-menu">
+                <img class="first-column logo" src="img/lux-logo.png">
+                <h1 class="title">Dashboard</h1>
+            </div>
+
+            <div class="grid-menu">
+                <ul>
+                    <li class="first-column"><img src="img/home.png"></li>
+                    <li class="first-column"><img src="img/profile.png"></li>
+                    <li class="first-column"><img src="img/messages.png"></li>
+                    <li class="first-column"><img src="img/history.png"></li>
+                    <li class="first-column"><img src="img/tasks.png"></li>
+                    <li class="first-column"><img src="img/communities.png"></li>
+                </ul>
+                <ul>
+                    <li><a class="menu-link" href="#">Home</a></li>
+                    <li><a class="menu-link" href="#">Profile</a></li>
+                    <li><a class="menu-link" href="#">Messages</a></li>
+                    <li><a class="menu-link" href="#">History</a></li>
+                    <li><a class="menu-link" href="#">Tasks</a></li>
+                    <li><a class="menu-link" href="#">Communities</a></li>
+                </ul>
+            </div>
+
+            <div class="grid-menu">
+                <ul>
+                    <li class="first-column"><img src="img/settings.png"></li>
+                    <li class="first-column"><img src="img/support.png"></li>
+                    <li class="first-column"><img src="img/privacy.png"></li>
+                </ul>
+                <ul>
+                    <li><a class="menu-link" href="#">Settings</a></li>
+                    <li><a class="menu-link" href="#">Support</a></li>
+                    <li><a class="menu-link" href="#">Privacy</a></li>
+                </ul>
+            </div>
+
+        </aside>
+        <main>
+
+            <section class="projects-container">
+
+                <h2 class="content-title">Your Projects</h2>
+                <div class="card">Super Cool Project</div>
+                <div class="card">Less Cool Project</div>
+                <div class="card">Impossible App</div>
+                <div class="card">Easy Peasy App</div>
+                <div class="card">Ad Blocker</div>
+                <div class="card">Money Maker</div>
+
+            </section>
+
+            <section class="news-container">
+
+                <h2 class="content-title">Announcements</h2>
+                <div class="news-card">some announcements here</div>
+                <h2 class="content-title">Trending</h2>
+                <div class="news-card">some trendy people here</div>
+
+            </section>
+
+        </main>
+    </div>
 
 </body>
 </html>

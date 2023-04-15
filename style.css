@@ -316,6 +316,7 @@ main {
 
     .main-container {
         all: initial;
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         height: 100%;
         display: grid;
         grid-template-columns: 220px 1fr;
@@ -325,6 +326,7 @@ main {
 
     aside {
         all: initial;
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         background-color: var(--accent-clr);
         color: white;
         padding: 20px;
@@ -346,6 +348,7 @@ main {
 
     header {
         all: initial;
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         background-color: white;
         display: grid;
         grid-template-columns: 3fr 1fr;
@@ -356,6 +359,7 @@ main {
 
     main {
         all: initial;
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         grid-column: span 2;
     }
 
@@ -397,6 +401,7 @@ main {
 
     .main-container {
         all: initial;
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         height: 100%;
         display: grid;
         grid-template-columns: 1fr;
@@ -406,6 +411,7 @@ main {
 
     aside {
         all: initial;
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         background-color: var(--accent-clr);
         color: white;
         padding: 20px;
@@ -440,6 +446,7 @@ main {
 
     header {
         all: initial;
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         background-color: white;
         display: grid;
         grid-template-columns: 1fr;
@@ -467,6 +474,7 @@ main {
 
     main {
         all: initial;
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
     .news-container {
